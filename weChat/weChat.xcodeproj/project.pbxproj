@@ -13,6 +13,7 @@
 		0BBE38681D98BA020078D62E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBE38661D98BA020078D62E /* Main.storyboard */; };
 		0BBE386A1D98BA020078D62E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBE38691D98BA020078D62E /* Assets.xcassets */; };
 		0BBE386D1D98BA020078D62E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBE386B1D98BA020078D62E /* LaunchScreen.storyboard */; };
+		0BBE38761D98BA890078D62E /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE38751D98BA890078D62E /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0BBE38691D98BA020078D62E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BBE386C1D98BA020078D62E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BBE386E1D98BA020078D62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BBE38741D98BA890078D62E /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		0BBE38751D98BA890078D62E /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				0BBE38611D98BA020078D62E /* AppDelegate.m */,
 				0BBE38631D98BA020078D62E /* ViewController.h */,
 				0BBE38641D98BA020078D62E /* ViewController.m */,
+				0BBE38741D98BA890078D62E /* Dog.h */,
+				0BBE38751D98BA890078D62E /* Dog.m */,
 				0BBE38661D98BA020078D62E /* Main.storyboard */,
 				0BBE38691D98BA020078D62E /* Assets.xcassets */,
 				0BBE386B1D98BA020078D62E /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				0BBE38651D98BA020078D62E /* ViewController.m in Sources */,
 				0BBE38621D98BA020078D62E /* AppDelegate.m in Sources */,
+				0BBE38761D98BA890078D62E /* Dog.m in Sources */,
 				0BBE385F1D98BA020078D62E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
